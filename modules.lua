@@ -9,6 +9,7 @@ print(mymod.hi(username))
 mymathmodule.add(10,20)
 mymathmodule.sub(30,20)
 mymathmodule.mul(10,20)
+mymathmodule.mod(5,4)
 mymathmodule.div(30,20)
 local q = mymathmodule.sub1(30,40)
 local l,m,n,o = mymod.multi(10,20,30)
@@ -53,4 +54,8 @@ end
 
 function calc.div(a,b)
    print(a/b)
+end
+
+function calc.mod(a,b)
+    print(a%b)
 end

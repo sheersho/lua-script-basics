@@ -22,3 +22,5 @@ for i=1, #student_height, 1 do
 sum = sum + student_height[i]
 end
 print("The average height between these students is ", sum / #student_height)
+
+--[[end of loops]]--

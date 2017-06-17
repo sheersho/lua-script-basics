@@ -17,7 +17,7 @@ for k,v in ipairs(iot_team_dupont) do
    print(k,v)
 end
 
-table.sort(iot_team_dupont)
+table.sort(iot_team_dupont)  --[[Sort function called]]--
 print("\nsorted table\n")
 
 for k,v in ipairs(iot_team_dupont) do

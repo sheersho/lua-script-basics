@@ -1,4 +1,4 @@
-LED_PIN = 1
+LED_PIN = 4
 US_TO_MS = 1000
 
 gpio.mode(LED_PIN, gpio.OUTPUT)
@@ -12,7 +12,7 @@ end
 
 --[[Use Alarm Function]]--
 
-LED_PIN = 1
+LED_PIN = 4
 
 gpio.mode(LED_PIN, gpio.OUTPUT)
 value = true

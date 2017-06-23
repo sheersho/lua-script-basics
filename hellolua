@@ -1,0 +1,11 @@
+print("Hello Humans..Welcome to the Lua World")
+
+
+
+str1 = "this is string example....wow!!!";
+str2 = "exam";
+
+a,b = string.find(str1," example") --[[returns the starting and ending indicies of example]]--
+print(a) 
+print(b)
+print(string.sub(str1, a,b)) --[[ takes the indicies a and b of the string str1 and returns between the given indicies]]--
